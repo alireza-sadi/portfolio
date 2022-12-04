@@ -1,5 +1,5 @@
-import SiteBody from "../siteBody/SiteBody";
-import VerticalMenu from "../verticalMenu/VerticalMenu";
+import HeroSite from "../sections/heroSite/HeroSite";
+import VerticalMenu from "../sections/verticalMenu/VerticalMenu";
 import "./MainPage.scss";
 
 const MainPage = () => {
@@ -7,7 +7,9 @@ const MainPage = () => {
     <>
       <div className="main-page">
         <VerticalMenu />
-        <SiteBody/>
+        <div className="site-body">
+          <HeroSite />
+        </div>
       </div>
     </>
   );

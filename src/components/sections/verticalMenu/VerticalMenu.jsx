@@ -1,4 +1,4 @@
-import SocialIcon from "../socialIcon/SocialIcon";
+import SocialIcon from "../../reactComponents/socialIcon/SocialIcon";
 import "./VerticalMenu.scss";
 const VerticalMenu = () => {
   services: document.querySelector("#services");

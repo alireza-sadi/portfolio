@@ -1,6 +1,6 @@
 import "./HeroSite.scss";
 import { TypeAnimation } from "react-type-animation";
-import Button from "../button/Button";
+import Button from "../../reactComponents/button/Button";
 
 const HeroSite = () => {
   return (
