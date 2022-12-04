@@ -1,6 +1,6 @@
 import "./HeroSite.scss";
+import Button from "../../../reactComponents/button/Button";
 import { TypeAnimation } from "react-type-animation";
-import Button from "../../reactComponents/button/Button";
 
 const HeroSite = () => {
   return (
@@ -33,9 +33,9 @@ const HeroSite = () => {
           adress={"#contact"}
           hoverBackground={"#9a0680"}
         />
-          <a href="#about">
-            <i className="fa fa-angle-down"></i>
-          </a>
+        <a href="#about">
+          <i className="fa fa-angle-down"></i>
+        </a>
       </div>
     </>
   );
