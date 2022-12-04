@@ -1,4 +1,4 @@
-import SocialIcon from "../../../reactComponents/socialIcon/SocialIcon"
+import SocialIcon from "../../../reactComponents/socialIcon/SocialIcon";
 import "./VerticalMenu.scss";
 const VerticalMenu = () => {
   services: document.querySelector("#services");
@@ -8,10 +8,21 @@ const VerticalMenu = () => {
   contact: document.querySelector("#contact");
   window.addEventListener("scroll", () => {
     if (
-      window.scrollY > document.querySelector("#home").offsetTop &&
+      window.scrollY >= document.querySelector("#home").offsetTop &&
       window.scrollY < document.querySelector("#about").offsetTop
-    )
+    ) {
       document.querySelector("#home-vm").style.color = "#9a0680";
+    } else {
+      document.querySelector("#home-vm").style.color = "azure";
+    }
+    if (
+      window.scrollY >= document.querySelector("#about").offsetTop &&
+      window.scrollY < document.querySelector("#services").offsetTop
+    ) {
+      document.querySelector("#about-vm").style.color = "#9a0680";
+    } else {
+      document.querySelector("#about-vm").style.color = "azure";
+    }
   });
 
   return (
@@ -59,7 +70,7 @@ const VerticalMenu = () => {
             </a>
           </li>
         </ul>
-        <SocialIcon/>
+        <SocialIcon />
       </div>
     </>
   );
