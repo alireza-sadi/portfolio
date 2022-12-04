@@ -1,0 +1,11 @@
+
+.btn {
+   a{
+    text-decoration: none;
+    color: inherit;
+   }
+  &:hover {
+    cursor: pointer;
+    color: azure;
+  }
+}

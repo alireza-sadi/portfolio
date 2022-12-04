@@ -1,0 +1,25 @@
+$color-primary: #9a0680;
+$color-secondry: #79018c;
+$color-ternary: #4c0070;
+$color-dark: #2c272e;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: poppins;
+  color: azure;
+  scroll-behavior: smooth;
+  ::selection {
+    color: azure;
+    background: $color-ternary;
+  }
+
+  ::-moz-selection {
+    /* Code for Firefox */
+    color: azure;
+    background: $color-ternary;
+  }
+}
