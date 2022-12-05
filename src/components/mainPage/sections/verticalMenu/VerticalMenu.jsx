@@ -23,6 +23,22 @@ const VerticalMenu = () => {
     } else {
       document.querySelector("#about-vm").style.color = "azure";
     }
+    if (
+      window.scrollY >= document.querySelector("#services").offsetTop &&
+      window.scrollY < document.querySelector("#resume").offsetTop
+    ) {
+      document.querySelector("#services-vm").style.color = "#9a0680";
+    } else {
+      document.querySelector("#services-vm").style.color = "azure";
+    }
+    if (
+      window.scrollY >= document.querySelector("#resum").offsetTop &&
+      window.scrollY < document.querySelector("#portfolio").offsetTop
+    ) {
+      document.querySelector("#resume-vm").style.color = "#9a0680";
+    } else {
+      document.querySelector("#resume-vm").style.color = "azure";
+    }
   });
 
   return (
@@ -57,11 +73,6 @@ const VerticalMenu = () => {
           <li>
             <a href="#portfolio" id="portfolio-vm">
               Portfolio
-            </a>
-          </li>
-          <li>
-            <a href="#testimonial" id="Testimonial-vm">
-              Testimonial
             </a>
           </li>
           <li>

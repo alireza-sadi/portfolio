@@ -32,6 +32,7 @@ const HeroSite = () => {
           title={"Hire Me"}
           adress={"#contact"}
           hoverBackground={"#9a0680"}
+          border={"3px solid #9a0680"}
         />
         <a href="#about">
           <i className="fa fa-angle-down"></i>

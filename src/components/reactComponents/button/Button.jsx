@@ -9,9 +9,10 @@ const Button = (props) => {
     setIsHover(false);
   };
   const style = {
+
     marginTop: "2rem",
     padding: ".7rem 3rem",
-    border: "3px solid #9a0680",
+    border: props.border,
     color: isHover ? props.hoverColor : props.color,
     borderRadius: "2rem",
     transition: "all 500ms ease-in-out",

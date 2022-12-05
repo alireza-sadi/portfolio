@@ -14,26 +14,26 @@ html {
   scroll-behavior: smooth;
 }
 ::selection {
-    color: azure;
-    background: #4c0070;
-  }
+  color: azure;
+  background: #6D67E4;
+}
 
-  ::-moz-selection {
-    /* Code for Firefox */
-    color: azure;
-    background:#4c0070;
-  }
+::-moz-selection {
+  /* Code for Firefox */
+  color: azure;
+  background: #6D67E4;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background:#79018c; 
+body {
+  scrollbar-width: thin;
+  scrollbar-color:#6D67E4;
 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #9a0680; 
+  &::-webkit-scrollbar-track {
+    background: #2c272e;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #6D67E4;
+  }
 }

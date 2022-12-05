@@ -1,5 +1,58 @@
-.about-me{
-    background-color: #2c272e;
-    height: 100vh;
-    width: 100%;
+.about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: #2c272e;
+  height: 100vh;
+  width: 100%;
+  .container {
+    margin-top: 6rem;
+    display: flex;
+    padding: 1rem 5rem;
+    .about {
+        padding-right:3rem;
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        &:last-child {
+          color: #9a0680;
+          display: inline-block;
+        }
+      }
+      span{
+        word-spacing: .5rem;
+        word-wrap: break-word;
+        padding-bottom: 1rem;
+      }
+    }
+    .info{
+        div{
+            padding: .7rem 0;
+            &:not(:last-child){
+                border-bottom: 1px solid rgba(240, 255, 255, 0.3);
+            }
+            h4{
+                display: inline-block;
+            }
+            span{
+                color: #6D67E4;
+            }
+        }
+    }
+}
+.project-nums{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    .numb{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .vertical-line{
+        border-right: 2px solid rgba(240, 255, 255, 0.3);
+        height: 100%;
+    }
+}
 }
