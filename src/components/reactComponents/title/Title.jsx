@@ -7,7 +7,7 @@ const Title = (props) => {
         <div className="title">
             <h2>{props.backTitle}</h2>
                 <h3>{props.title}</h3>
-                <hr />
+            <div className="hr"></div>
         </div>
         </>
     )
