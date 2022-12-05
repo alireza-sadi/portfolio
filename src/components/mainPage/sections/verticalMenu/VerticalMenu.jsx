@@ -1,7 +1,6 @@
 import SocialIcon from "../../../reactComponents/socialIcon/SocialIcon";
 import "./VerticalMenu.scss";
 const VerticalMenu = () => {
-  contact: document.querySelector("#contact");
   window.addEventListener("scroll", () => {
     if (
       window.scrollY >= document.querySelector("#home").offsetTop &&
@@ -43,6 +42,13 @@ const VerticalMenu = () => {
     } else {
       document.querySelector("#portfolio-vm").style.color = "azure";
     }
+     if (
+       window.scrollY >= document.querySelector("#contact").offsetTop 
+     ) {
+       document.querySelector("#contact-vm").style.color = "#9a0680";
+     } else {
+       document.querySelector("#contact-vm").style.color = "azure";
+     }
   });
 
   return (

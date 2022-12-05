@@ -1,9 +1,8 @@
 .portfolio-holder {
-  background-color: #3b373d;
+  background-color: #343A40;
   .grid-container {
     position: relative;
-    margin: 4rem 3rem;
-    padding-bottom: 3rem;
+    padding: 4rem;
     display: grid;
     gap: 0.7rem;
     grid-template-columns: repeat(3, auto);

@@ -6,6 +6,7 @@ import AboutMe from "./sections/aboutMe/AboutMe";
 import Services from "./sections/services/Services";
 import Resume from "./sections/resume/Resume";
 import Portfolio from "./sections/portfolio/Portfolio";
+import Contact from "./sections/contact/Contact";
 
 const MainPage = () => {
   return (
@@ -18,6 +19,7 @@ const MainPage = () => {
           <Services />
           <Resume />
           <Portfolio/>
+          <Contact/>
         </div>
       </div>
     </>
