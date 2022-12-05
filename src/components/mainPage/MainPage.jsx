@@ -18,8 +18,8 @@ const MainPage = () => {
           <AboutMe />
           <Services />
           <Resume />
-          <Portfolio/>
-          <Contact/>
+          <Portfolio />
+          <Contact />
         </div>
       </div>
     </>
