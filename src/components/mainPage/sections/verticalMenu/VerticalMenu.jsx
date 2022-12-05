@@ -1,10 +1,6 @@
 import SocialIcon from "../../../reactComponents/socialIcon/SocialIcon";
 import "./VerticalMenu.scss";
 const VerticalMenu = () => {
-  services: document.querySelector("#services");
-  resume: document.querySelector("#resume");
-  portfolio: document.querySelector("#portfolio");
-  testimonial: document.querySelector("#testimonial");
   contact: document.querySelector("#contact");
   window.addEventListener("scroll", () => {
     if (
@@ -32,12 +28,20 @@ const VerticalMenu = () => {
       document.querySelector("#services-vm").style.color = "azure";
     }
     if (
-      window.scrollY >= document.querySelector("#resum").offsetTop &&
+      window.scrollY >= document.querySelector("#resume").offsetTop &&
       window.scrollY < document.querySelector("#portfolio").offsetTop
     ) {
       document.querySelector("#resume-vm").style.color = "#9a0680";
     } else {
       document.querySelector("#resume-vm").style.color = "azure";
+    }
+    if (
+      window.scrollY >= document.querySelector("#portfolio").offsetTop &&
+      window.scrollY < document.querySelector("#contact").offsetTop
+    ) {
+      document.querySelector("#portfolio-vm").style.color = "#9a0680";
+    } else {
+      document.querySelector("#portfolio-vm").style.color = "azure";
     }
   });
 
