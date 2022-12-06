@@ -9,7 +9,7 @@
     display: flex;
     padding: 1rem 5rem;
     .about {
-        padding-right:3rem;
+      padding-right: 3rem;
       display: flex;
       flex-direction: column;
       width: 70%;
@@ -21,38 +21,39 @@
           display: inline-block;
         }
       }
-      span{
-        word-spacing: .5rem;
+      span {
+        word-spacing: 0.5rem;
         word-wrap: break-word;
         padding-bottom: 1rem;
       }
     }
-    .info{
-        div{
-            padding: .7rem 0;
-            &:not(:last-child){
-                border-bottom: 1px solid rgba(240, 255, 255, 0.3);
-            }
-            h4{
-                display: inline-block;
-            }
-            span{
-                color: #6D67E4;
-            }
+    .info {
+      div {
+        padding: 0.7rem 0;
+        &:not(:last-child) {
+          border-bottom: 1px solid rgba(240, 255, 255, 0.3);
         }
+        h4 {
+          display: inline-block;
+        }
+        span {
+          color: #6d67e4;
+        }
+      }
     }
-}
-.project-nums{
+  }
+  .project-nums {
+    margin-top: 1rem;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    .numb{
-        font-size: 3rem;
-        font-weight: 500;
+    .numb {
+      font-size: 3rem;
+      font-weight: 500;
     }
-    .vertical-line{
-        border-right: 2px solid rgba(240, 255, 255, 0.3);
-        height: 100%;
+    .vertical-line {
+      border-right: 2px solid rgba(240, 255, 255, 0.3);
+      height: 100%;
     }
-}
+  }
 }
