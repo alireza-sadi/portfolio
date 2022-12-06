@@ -42,20 +42,21 @@ const VerticalMenu = () => {
     } else {
       document.querySelector("#portfolio-vm").style.color = "azure";
     }
-     if (
-       window.scrollY >= document.querySelector("#contact").offsetTop - 100
-     ) {
-       document.querySelector("#contact-vm").style.color = "#9a0680";
-     } else {
-       document.querySelector("#contact-vm").style.color = "azure";
-     }
+    if (window.scrollY >= document.querySelector("#contact").offsetTop - 100) {
+      document.querySelector("#contact-vm").style.color = "#9a0680";
+    } else {
+      document.querySelector("#contact-vm").style.color = "azure";
+    }
   });
 
   return (
     <>
       <div className="vm-container">
         <div className="image-holder">
-          <img src="/media/profile.jpg" alt="my profile" />
+          <img
+            src="http://alireza-sadi.github.io/portfolio/media/profile.jpg"
+            alt="my profile"
+          />
         </div>
         <h2 className="name">Alireza Sadi</h2>
         <h4>Web Developer</h4>

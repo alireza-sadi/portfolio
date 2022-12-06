@@ -6,7 +6,10 @@ const HeroSite = () => {
   return (
     <>
       <div className="hero-site" id="home">
-        <img src="/media/webs-background.webp" alt="" />
+        <img
+          src="http://alireza-sadi.github.io/portfolio/media/webs-background.webp"
+          alt=""
+        />
         <h2>Welcome</h2>
         <TypeAnimation
           sequence={[
