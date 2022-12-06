@@ -7,11 +7,11 @@
     margin-top: 4rem;
     .info {
       width: 15%;
-      .fa{
+      .fa {
         color: #9a0680;
-        padding-right: .5rem;
+        padding-right: 0.5rem;
       }
-      .address   {
+      .address {
         margin-bottom: 1rem;
       }
       div {
@@ -20,21 +20,20 @@
     }
 
     .form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70%;
       h2 {
         align-self: flex-start;
         margin-bottom: 1rem;
       }
       div {
         display: flex;
-        width: 100%;
-        input {
+        #name,
+        #email {
           background-color: #343a40;
           border: none;
-          margin-right: 1rem;
           padding: 1rem;
           border-radius: 10px;
           width: 50%;
@@ -44,6 +43,10 @@
             font: 400 0.8rem "poppins";
           }
         }
+        #email {
+          margin-left: 1rem;
+        }
+        width: 100%;
       }
       textarea {
         color: #fbf3e4;
@@ -58,20 +61,20 @@
           font: 400 0.8rem "poppins";
         }
       }
-      .btn{
+      .btn {
         width: 26%;
       }
     }
   }
-  .copyright{
+  .copyright {
     color: rgba(240, 255, 255, 0.5);
     margin-top: 7rem;
     margin-left: 2rem;
   }
-footer{
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  padding-bottom: 1rem;
-}
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+  }
 }

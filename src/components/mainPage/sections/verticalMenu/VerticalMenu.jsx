@@ -4,46 +4,46 @@ const VerticalMenu = () => {
   window.addEventListener("scroll", () => {
     if (
       window.scrollY >= document.querySelector("#home").offsetTop &&
-      window.scrollY < document.querySelector("#about").offsetTop
+      window.scrollY < document.querySelector("#about").offsetTop - 100
     ) {
       document.querySelector("#home-vm").style.color = "#9a0680";
     } else {
       document.querySelector("#home-vm").style.color = "azure";
     }
     if (
-      window.scrollY >= document.querySelector("#about").offsetTop &&
-      window.scrollY < document.querySelector("#services").offsetTop
+      window.scrollY >= document.querySelector("#about").offsetTop - 100 &&
+      window.scrollY < document.querySelector("#services").offsetTop - 100
     ) {
       document.querySelector("#about-vm").style.color = "#9a0680";
     } else {
       document.querySelector("#about-vm").style.color = "azure";
     }
     if (
-      window.scrollY >= document.querySelector("#services").offsetTop &&
-      window.scrollY < document.querySelector("#resume").offsetTop
+      window.scrollY >= document.querySelector("#services").offsetTop - 100 &&
+      window.scrollY < document.querySelector("#resume").offsetTop - 100
     ) {
       document.querySelector("#services-vm").style.color = "#9a0680";
     } else {
       document.querySelector("#services-vm").style.color = "azure";
     }
     if (
-      window.scrollY >= document.querySelector("#resume").offsetTop &&
-      window.scrollY < document.querySelector("#portfolio").offsetTop
+      window.scrollY >= document.querySelector("#resume").offsetTop - 100 &&
+      window.scrollY < document.querySelector("#portfolio").offsetTop - 100
     ) {
       document.querySelector("#resume-vm").style.color = "#9a0680";
     } else {
       document.querySelector("#resume-vm").style.color = "azure";
     }
     if (
-      window.scrollY >= document.querySelector("#portfolio").offsetTop &&
-      window.scrollY < document.querySelector("#contact").offsetTop
+      window.scrollY >= document.querySelector("#portfolio").offsetTop - 100 &&
+      window.scrollY < document.querySelector("#contact").offsetTop - 100
     ) {
       document.querySelector("#portfolio-vm").style.color = "#9a0680";
     } else {
       document.querySelector("#portfolio-vm").style.color = "azure";
     }
      if (
-       window.scrollY >= document.querySelector("#contact").offsetTop 
+       window.scrollY >= document.querySelector("#contact").offsetTop - 100
      ) {
        document.querySelector("#contact-vm").style.color = "#9a0680";
      } else {
