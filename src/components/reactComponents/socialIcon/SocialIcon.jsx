@@ -4,7 +4,7 @@ const SocialIcon = () => {
   return (
     <>
       <div className="social-icon">
-        <a href="https://github/com/alireza-sadi">
+        <a href="https://github.com/alireza-sadi">
           <i className="fa-brands fa-github"></i>
         </a>
         <a href="https://facebook.com/alireza.sadi8">
